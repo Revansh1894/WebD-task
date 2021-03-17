@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+
+		.row {  
+             display: -ms-flexbox; 
+             display: flex;
+             -ms-flex-wrap: wrap; 
+             flex-wrap: wrap;
+             padding-left: 20px;
+             }
+         .col-50{
+                -ms-flex: 50%;
+                 flex: 50%;
+		        }
+		 .col-60{
+		 	-ms-flex:60%;
+		 	flex: 60%;
+		 }
+		 .col-40{
+		 	-ms-flex:40%;
+		 	flex:40%;
+		 }
+		 .col-30{
+		 	-ms-flex:30%;
+		 	flex:30%;
+		 }
+		.a1r{
+            background-image: url('slide-01.jpg');
+            background-color: rgba(10,40,170,60);
+            opacity: 20px;
+		}
+         i {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  background-color: #fb5849;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-top: -35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+          .phoner{
+
+          }
+          .container {
+  background-color: white ;
+  padding: 5px 10px 15px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 1px;
+}
+input[type=text], select {
+  
+  padding: 15px 25px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  ;
+}
+	</style>
+		
+</head>
+<body>
+
+	<div class="a1r">
+		<div class="row">
+			<div class="col-40" style="padding-top: 30px; padding-right: 20px">
+				<p style="color: white; font-size: 25px">About Us</p>
+				<p style="color: white; font-size: 30px">Here You Can Make A Reservation Or Just walkin to our cafe</p>
+				<p style="color: white">Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut.</p>
+				<div class="row">
+					<div class="col-50">
+						
+								<h3 style="padding-top: 30px;" align="center">Phone Numbers</h3>
+							
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-40" style="padding-top: 50px; padding-right: 50px">
+				<div class="container">
+					<p align="center" style="font-size: 25px"><b>TABLE RESERVATION</b></p>
+				<div class="row">
+					<div class="col-30" style="width: 100%; padding: 20px; padding-right: 65px">
+                    <input type="text" name="name" placeholder="Your Name*" style="width: 100% ">   
+                </div>
+					<div class="col-30" style="width: 100%; padding: 20px; padding-right: 65px">
+						<input type="text" name="email" placeholder="Enter your Email address" style="width: 100%">
+					</div>
+				</div>
+				<div class="row" >
+					<div class="col-30" style="width: 100%; padding: 20px; padding-right: 65px" >
+						<input type="text" name="phone Numbers" placeholder="Phone Number*" style="width: 100%; ">
+					</div>
+					<div class="col-40" style="width: 100%; padding: 20px">
+						 <select id="Number of Guest" name="Number of Guest" required="" style="width: 100%">
+                    <option value="" disabled selected>Number of Guest</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+					</div>					
+				</div>
+				</div>				
+			</div>			
+		</div>
+		
+	</div>
+
+</body>
+</html>
