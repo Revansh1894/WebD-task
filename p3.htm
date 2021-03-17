@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+		* {
+          box-sizing: border-box;
+          }
+		.row {  
+             display: -ms-flexbox; 
+             display: flex;
+             -ms-flex-wrap: wrap; 
+             flex-wrap: wrap;
+             padding-left: 20px;
+             }
+         .col-33{
+                -ms-flex: 33.33%;
+                 flex: 33.33%;
+		        }
+		 .col-60{
+		 	-ms-flex:60%;
+		 	flex: 60%;
+		 }
+		 .col-40{
+		 	-ms-flex:40%;
+		 	flex:40%;
+		 }       
+		 @media screen and  (max-width: 800px) {
+  .row, .col-40, .col-60 {
+    flex: 100%;}
+               }
+               @media screen and (max-width: 200px){
+               	.col-33{
+               		flex: 100%;
+               	}
+               }
+	</style>
+</head>
+<body>
+  <section>
+	<div class="row">
+<div class="col-60" style="padding-right: 20px">
+	<h2 style="color: tomato; padding-left: 60px">About Us</h2>
+<h1 style="padding-left: 60px">We Leave A Delicious Memory For You</h1>
+<p style="padding-left: 60px">Klassy Cafe is one of the best restaurant HTML templates with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes.</p>
+<p style="padding-left: 60px">You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+<div class="row">
+<div class="col-33"><img src="images\about-thumb-01.jpg" style="width: 100%; padding-right: 20px"></div>
+<div class="col-33"><img src="images\about-thumb-02.jpg" style="width: 100%; padding-right: 20px"></div>
+<div class="col-33"><img src="images\about-thumb-03.jpg" style="width: 100%; padding-right: 20px"></div>
+</div>
+</div>
+<div class="col-40" style="padding-right: 60px; padding-top: 30px; padding-left: 20px"><img src="images\about-video-bg.jpg" width="100%"></div>
+</div>
+</section>
+</body>
+</html>
