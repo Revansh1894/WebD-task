@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#fip").click(function(){
+    $("#pnel").slideToggle("slow");
+  });
+});
+
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #aefac1;
+  border: solid 1px #474545;
+  font-size: 30px;
+}
+
+#panel {
+  padding: 7px;
+  display: none;
+  font-size: 30px;
+}
+#pnel, #fip {
+  padding: 5px;
+  text-align: center;
+  background-color: #aefac1;
+  border: solid 1px #474545;
+  font-size: 30px;
+}
+
+#pnel {
+  padding: 7px;
+  display: none;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">ACCORDIAN</h1> 
+<div id="flip">Students</div>
+<div id="panel" style="background: rgb(1, 209, 95);">Activities</div>
+<div id="fip">Performance</div>
+<div id="pnel" style="background: rgb(1, 209, 95);">Scorecard</div>
+
+</body>
+</html>
+
