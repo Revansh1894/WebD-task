@@ -5,52 +5,86 @@
 <script> 
 $(document).ready(function(){
   $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
+    $("#panel").slideToggle(300);
   });
 });
 $(document).ready(function(){
   $("#fip").click(function(){
-    $("#pnel").slideToggle("slow");
+    $("#pnel").slideToggle(300);
   });
 });
-
+$(document).ready(function(){
+  $("#fli").click(function(){
+    $("#panl").slideToggle(300);
+  });
+});
 </script>
 <style> 
 #panel, #flip {
+  color: white;
   padding: 5px;
   text-align: center;
-  background-color: #aefac1;
-  border: solid 1px #474545;
+  background-color: #086081;
+  border: solid 1px white;
   font-size: 30px;
+ width: 70%;
+ transform: translate(20%,0%);
 }
 
 #panel {
-  padding: 7px;
+  padding: 5px;
   display: none;
   font-size: 30px;
+ width: 70%;
 }
 #pnel, #fip {
+  color: white;
   padding: 5px;
   text-align: center;
-  background-color: #aefac1;
-  border: solid 1px #474545;
+  background-color:  #086081;
+  border: solid 1px white;
   font-size: 30px;
+  width: 70%;
+ transform: translate(20%,0%);
 }
 
 #pnel {
   padding: 7px;
   display: none;
   font-size: 30px;
+  width: 70%;
+ transform: translate(20%,0%);
 }
+#panl, #fli {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  background-color: #086081;
+  border: solid 1px white;
+  font-size: 30px;
+ width: 70%;
+ transform: translate(20%,0%);
+}
+
+#panl {
+  padding: 5px;
+  display: none;
+  font-size: 30px;
+ width: 70%;
+}
+
 </style>
 </head>
 <body>
-<h1 style="text-align: center;">ACCORDIAN</h1> 
+<h1 style="text-align: center;">ACCORDIAN</h1>
+<br><br> 
 <div id="flip">Students</div>
-<div id="panel" style="background: rgb(1, 209, 95);">Activities</div>
+<div id="panel" style="background: #086081;">Activities</div>
 <div id="fip">Performance</div>
-<div id="pnel" style="background: rgb(1, 209, 95);">Scorecard</div>
-
+<div id="pnel" style="background: #086081;">Scorecard</div>
+<div id="fli">Cources</div>
+<div id="panl" style="background: #086081;">Minors</div>
 </body>
 </html>
+
 
